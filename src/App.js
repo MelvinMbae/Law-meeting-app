@@ -1,13 +1,14 @@
 import React from 'react';
 import "./App.css"
-import MeetingForm from './Components/MeetingForm';
 import Header from './Components/Header';
+import Meetings from './Components/Meeting';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <MeetingForm Form="Feedback Form" Tasks="Tick where Appropriate" />
+      <Meetings />
+      
     </div>
   );
 }
