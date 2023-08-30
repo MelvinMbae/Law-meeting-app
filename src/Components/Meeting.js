@@ -7,12 +7,12 @@ function Meetings() {
     const [meetings, setMeeting] = useState([])
 
     const addMeeting = meeting => {
-        setMeeting([...meetings, { meeting: meeting }])
+        setMeeting([meetings, { meeting: meeting }])
 
         console.log(meetings)
     }
     return (
-        <div className="meeting-list">
+        <div className="form">
             <MeetingForm addMeeting={addMeeting} />
 
         </div>
