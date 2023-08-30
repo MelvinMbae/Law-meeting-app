@@ -1,12 +1,7 @@
 import React from "react";
 
 function Meetings() {
-    return(
-    <div>
-
-    </div>
-
-    )
+    return
 };
 
 export default Meetings;
