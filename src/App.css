@@ -1,110 +1,18 @@
 .App {
-  text-align: center;
-  background-color: lightblue;
+    text-align: center;
+    background-color: coral;
+    padding-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.App-header {
-  background-color: lightblue;
-  min-height: 20vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 40px;
-  color: maroon;
-  font-weight: 1000;
-}
-
-.list-of-meetings {
-  border: 1px solid lightgray;
-  border-radius: 16px;
-  background-color: white;
-  width: 95vw;
-  display: flex;
-  flex-direction: row;
-  padding: 20px;
-  row-gap: 10px;
-  justify-content: center
-}
-
-.list-of-meetings p {
-
-  border-radius: 16px;
-
-  background-color: white;
-  color: maroon;
-
-  font-size: 20px;
-
-  display: flex;
-  flex-direction: row;
-
-  padding: 20px;
-
-}
-
-.meeting-form {
-
-
-
-  padding: 20px;
-
-
-  background-color: lightblue;
-
-  justify-content: center;
-
-
-
-}
-
-.new-agenda-input {
-  width: 40vw;
-
-  padding: 8px;
-
-  background-color: white;
-
-  color: maroon;
-
-  border: none;
-  outline: none;
-
-  height: 30px;
-  border-radius: 5px;
-
-
-}
-
-.new-meeting-btn {
-
-
-  padding: 8px;
-  background-color: white;
-  margin-left: 3px;
-
-  color: maroon;
-
-
-  border: none;
-  outline: none;
-  border-radius: 5px;
-}
-
-.delete-btn,
-.edit-btn {
-  font-size: 16px;
-
-  background-color: #1e81b0;
-
-  width: 200px;
-
-  border-radius: 5px;
-  padding: 10px;
-  text-transform: uppercase;
-  cursor: pointer;
-  color: white;
-  border: none;
-
-  margin: 10px;
+#header {
+    background-color: maroon;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    text-align: left;
+    padding-left: 10px;
 }
