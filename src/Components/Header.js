@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
     return (
-        <header>Group 2 Law Firm</header>
+        <header className = "App-header">Group 2 Law Firm</header>
     )
 };
 

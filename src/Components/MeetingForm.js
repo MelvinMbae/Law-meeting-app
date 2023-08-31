@@ -9,9 +9,11 @@ function MeetingForm({ addMeeting }) {
         addMeeting(value);
 
         setValue("")
+
     }
     return (
-        <form className="meeting-form" onSubmit={formSubmission}>
+        <form className="meeting-form" onSubmit={formSubmission} >
+
             <input type="text" className="new-agenda-input" value={value} placeholder="Agenda of Meeting" onChange={(e) => setValue(e.target.value)} />
             <button type="submit" className="new-meeting-btn"> Add New Agenda</button>
         </form>
